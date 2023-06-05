@@ -28,9 +28,9 @@ function App() {
 					</p>
 					<div className="flex flex-row justify-start translate-y-32 group-hover:translate-y-0 duration-300">
 
-						<img src={fb} alt="" srcset="" className='w-8 h-8 mx-1' />
-						<img src={insta} alt="" srcset="" className='w-7 h-7 mx-1' />
-						<img src={linkedin} alt="" srcset="" className='w-7 h-7 mx-1' />
+						<a href="https://google.com"><img src={fb} alt="" srcset="" className='w-8 h-8 mx-1' /></a>
+						<a href="https://google.com"><img src={insta} alt="" srcset="" className='w-7 h-7 mx-1' /></a>
+						<a href="https://google.com"><img src={linkedin} alt="" srcset="" className='w-7 h-7 mx-1' /></a>
 
 					</div>
 				</div>
