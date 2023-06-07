@@ -9,7 +9,7 @@ function App() {
 			<div className="grid place-content-center h-screen w-screen">
 				<div className="bg-blue-500 max-w-xs px-5 py-8 relative group overflow-hidden">
 					{/*Overlay*/}
-					<div className="overlay bg-gray-100 group-hover:bg-blue-500 w-full h-full z-50 absolute top-0 left-0 grid place-content-center text-center group-hover:opacity-0 duration-300">
+					<div className="overlay bg-gray-100 group-hover:bg-blue-500 w-full h-full z-50 absolute top-0 left-0 grid place-content-center text-center group-hover:hidden duration-300">
 						<div className='group-hover:-translate-y-64 p-4 drop-shadow-lg group-hover:-translate-x-64 duration-300 bg-gray-50 rounded-full'>
 							<img src={Bibhu} alt="" srcset="" className=' w-36 h-36 rounded-full' />
 						</div>
